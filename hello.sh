@@ -32,3 +32,8 @@ echo "Name entered is $name $surname"
 # to make input invisible. eg. password
 read -sp "Enter password " password
 echo "$password"
+
+# To enter input and print as array
+echo "Enter the names of animals"
+read -a animals
+echo "${animals[0]}, ${animals[1]}, ${animals[2]}, ${animals[3]}"
