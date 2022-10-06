@@ -23,3 +23,7 @@ echo $addition
  echo "You name is $name"
 
 
+#  to allow the input to be on the same line
+
+read -p "Enter your surname here " surname
+echo "Name entered is $name $surname"
