@@ -14,5 +14,5 @@ echo $PATH
 
 # User defined Variable
 
-name = Joe
+name=Joe
 echo My name is $name
