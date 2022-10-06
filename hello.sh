@@ -4,7 +4,6 @@ echo "How far bro"
 
 
 # Sustem Variable
-
 echo $BASH
 echo $HOME
 echo $BASH_VERSION
@@ -13,6 +12,14 @@ echo $PATH
 
 
 # User defined Variable
-
 name=Joe
 echo My name is $name
+addition=$((10+10))
+echo $addition
+
+# Read Variable from input
+ echo "What is your name?"
+ read name
+ echo "You name is $name"
+
+
