@@ -8,5 +8,11 @@ echo "How far bro"
 echo $BASH
 echo $HOME
 echo $BASH_VERSION
-echo $PWD
-echo $PATH
+echo $PWD #present working directory
+echo $PATH 
+
+
+# User defined Variable
+
+name = Joe
+echo My name is $name
