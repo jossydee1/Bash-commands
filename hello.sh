@@ -27,3 +27,8 @@ echo $addition
 
 read -p "Enter your surname here " surname
 echo "Name entered is $name $surname"
+
+
+# to make input invisible. eg. password
+read -sp "Enter password " password
+echo "$password"
